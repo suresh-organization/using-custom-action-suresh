@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v2
         name: Checkout Repository
 
-      - uses: suresh-organization/myfirst-custom-action@v1
+      - uses: suresh-organization/myfirst-custom-action@v2
         with:
           iam-role-arn: ${{ secrets.IAMROLE_GITHUB }}
           bucket-name: github-action-suresh
