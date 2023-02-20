@@ -18,7 +18,7 @@ jobs:
         
 
       - name: Calling custom action
-        uses: suresh-organization/myfirst-custom-action/s3-upload@v2
+        uses: suresh-organization/myfirst-custom-action/v2@s3-upload
         with:
           iam-role-arn: ${{ secrets.IAMROLE_GITHUB }}
           bucket-name: github-action-suresh
