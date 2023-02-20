@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v2
         name: Checkout Repository
 
-      - uses: suresh-organization/myfirst-custom-action@v1
+      - uses: suresh-organization/myfirst-custom-action@suresh
         with:
           role-to-assume: ${{ secrets.IAMROLE_GITHUB }}
           role-session-name: GitHub-Action-Role
